@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  -moz-box-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+header {
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  background-color: #FAFAFA;
+  border: 0.5px solid #E3E3E3;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a {
+  color: #8a8a8a;
+  padding: 10px;
+}
+
+button img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width:15px;
+  height: auto;
+}
+
+.header-part1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.header-part2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.logo {
+  order: 1;
+  flex-grow: 1
+}
+
+.search {
+  order: 2;
+  flex-grow: 20;
+}
+
+.search-bar {
+  width: 630px;
+  height:42px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.nav-top {
+  order: 3;
+  flex-grow: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  background-color: #FAFAFA;
+  font-family: "Arial", sans-serif;
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.border {
+  border: 0.5px solid #E3E3E3;
+}
+
+.buttons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#google-logo {
+  max-width: 115px;
+  height: auto;
+}
+
+#avatar {
+  display: inline-block;
+  vertical-align: middle;
+  max-width:48px;
+  height: auto;
+  padding: 8px;
+}
+
+#left_avatar {
+  display: inline-block;
+  vertical-align: middle;
+  max-width:36px;
+  height: auto;
+  padding: 8px;
+}
+
+#text_search {
+  width: 520px;
+  height:38px;
+  border-style: none;
+}
+
+#footer_l {
+  float: left;
+  margin-left: 22px;
+  font-size: 14px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  color: #8a8a8a;
+}
