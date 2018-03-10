@@ -1,3 +1,6 @@
+* {
+  font-family: "Arial";
+}
 header {
   border: 1px solid black;
   position: absolute;
@@ -11,14 +14,21 @@ a {
   text-decoration: none;
   color: #8a8a8a;
   font-size: 13px;
-  font-family: "Arial";
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-left: 140px;
+  padding-top: 150px;
 }
 footer a {
   color: #8a8a8a;
   padding: 10px;
 }
-
-
 .header_logo_search_notifictions {
   display: flex;
   justify-content: flex-start;
@@ -26,14 +36,12 @@ footer a {
   align-content: center;
   padding: 20px;
 }
-
 .logo img {
   max-width: 115px;
   height: auto;
   padding-top: 5px;
   padding-right: 20px;
 }
-
 .container_search_box {
   display: flex;
   justify-content: flex-start;
@@ -44,14 +52,12 @@ footer a {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
-
 .search_box {
   order: 1;
   flex-grow: 8;
   height:35px;
   border: none;
 }
-
 .search_box_buttons {
   order: 2;
   flex-grow: 1;
@@ -61,14 +67,12 @@ footer a {
   align-content: center;
   padding-top: 2px;
 }
-
 .google_mic img {
   max-width: 14px;
   height: auto;
   order: 3;
   flex-grow:1;S
 }
-
 .google_glass img {
   max-width: 18px;
   height: auto;
@@ -76,11 +80,9 @@ footer a {
   flex-grow:1;
   padding-right: 10px;
 }
-
 .button_section {
   padding-left: 740px;
 }
-
 .header_nav {
   display: flex;
   justify-content: space-between;
@@ -88,7 +90,6 @@ footer a {
   align-content: center;
   padding-bottom: 15px;
 }
-
 .nav_section_one {
   display: flex;
   justify-content: space-around;
@@ -96,11 +97,9 @@ footer a {
   align-content: center;
   padding-left: 160px
 }
-
 .nav_section_one a{
   padding: 10px;
 }
-
 .nav_section_two {
   display: flex;
   justify-content: space-around;
@@ -108,9 +107,110 @@ footer a {
   align-content: center;
   padding-right: 900px
 }
-
 .nav_section_two a{
   padding: 10px;
+}
+.box_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  align-content: center;
+  width: 640px;
+  height:285px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+.list_picture p {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 25px;
+  line-height: 18px;
+}
+.list_picture ol {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+.list_picture a {
+  font-size: 14px;
+  padding-left: 40px;
+  text-decoration: none;
+  color: #8a8a8a;
+}
+.links {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.links a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.links p {
+  font-size: 14px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+}
+.feedback_results {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  width: 640px;
+  height:285px;
+  padding-top: 18px;
+}
+.feedback_results a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.question_mark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 0px;
+}
+.question_mark img {
+  max-height: 22px;
+  width:auto;
+  padding-right: 10px;
+}
+.exclamation_mark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 0px;
+}
+.exclamation_mark img {
+  max-height: 16px;
+  width: auto;
+  padding-right: 10px;
+}
+
+
+
+#avatar {
+  display: inline-block;
+  vertical-align: middle;
+  max-width:30px;
+  height: auto;
+  padding: 6px;
+}
+#left_avatar {
+  display: inline-block;
+  vertical-align: middle;
+  max-width:20px;
+  height: auto;
+  padding: 6px;
+}
+#web_linked_image {
+  float: right;
+  clear: left;
+  margin: 0;
 }
 
 
@@ -121,19 +221,11 @@ footer a {
 
 
 
+/*
 
-
-
-
-
-
-
-
-
-
-
-
-
+div {
+  border: 1px grey dotted;
+}
 
 
 .footer {
@@ -157,21 +249,7 @@ footer a {
 }
 
 
-#avatar {
-  display: inline-block;
-  vertical-align: middle;
-  max-width:30px;
-  height: auto;
-  padding: 6px;
-}
 
-#left_avatar {
-  display: inline-block;
-  vertical-align: middle;
-  max-width:20px;
-  height: auto;
-  padding: 6px;
-}
 
 #footer_l {
   float: left;
