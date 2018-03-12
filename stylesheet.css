@@ -23,7 +23,7 @@ body {
   align-items: flex-start;
   align-content: flex-start;
   padding-left: 140px;
-  padding-top: 150px;
+  padding-top: 115px;
 }
 footer a {
   color: #8a8a8a;
@@ -98,7 +98,7 @@ footer a {
   padding-left: 160px
 }
 .nav_section_one a{
-  padding: 10px;
+  padding: 15px;
 }
 .nav_section_two {
   display: flex;
@@ -108,7 +108,7 @@ footer a {
   padding-right: 900px
 }
 .nav_section_two a{
-  padding: 10px;
+  padding: 15px;
 }
 .box_content_container {
   display: flex;
@@ -190,6 +190,17 @@ footer a {
   width: auto;
   padding-right: 10px;
 }
+.body_result {
+  padding-left: 25px;
+  padding-bottom: 12px;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+
+
+
+
 
 
 
@@ -221,8 +232,8 @@ footer a {
 
 
 
-/*
 
+/*
 div {
   border: 1px grey dotted;
 }
