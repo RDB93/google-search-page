@@ -229,7 +229,107 @@ footer a {
   line-height: 18px;
 
 }
+.bottom_link_parent {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  max-width: 630px;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.bottom_links {
+  display: flex;
+  line-height: 28px;
+}
+.bottom_links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bottom_heading {
+  font-size: 18px;
+}
+.parent_bottom_google {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 630px;
+  height:auto;
+  padding-top: 30px;
+}
+.bottom_image_div {
+  height: 42px;
+  width: 276;
+}
+.number_links  {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-right: 45px;
+  margin-left: 30px;
+}
+.number_links a {
+  text-decoration: none;
+  font-size: 13px;
+  padding-left: 5px;
+  color: #4885ed;
+}
+.bottom_arrow_next {
+  padding-left: 5px;
+}
+.img_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 42px;
+  width: 276;
+}
+.next_link a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #4885ed;
+}
 
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #FAFAFA;
+  color: #8a8a8a;
+}
+.footer_div {
+  padding-left: :
+}
+.SA {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  border: 0.5px solid #E3E3E3;
+  padding-left: 15px;
+}
+.footer p {
+  font-size: 15px;
+}
+.footer_links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.footer_links a {
+  text-decoration: none;
+  font-size: 13px;
+  padding : 15px;
+  color: #8a8a8a;
+}
 
 
 #first_content_box {
@@ -253,51 +353,4 @@ footer a {
   float: right;
   clear: left;
   margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-/*
-div {
-  border: 1px grey dotted;
-}
-
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  right: 0px;
-  background-color: #FAFAFA;
-  font-family: "Arial", sans-serif;
-  color: #8a8a8a;
-  font-size: 14px;
-}
-
-.border {
-  border: 0.5px solid #E3E3E3;
-}
-
-.buttons {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-
-
-
-#footer_l {
-  float: left;
-  margin-left: 22px;
-  font-size: 14px;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-
 }
